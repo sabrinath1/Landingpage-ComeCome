@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const social = useSocialRedirect();
+</script>
 <template>
   <div
     class="w-full navbar bg-primary justify-around fixed h-24 mr-14"
@@ -34,17 +36,17 @@
 
     <div class="flex items-end space-x-4">
       <div class="hidden sm:flex">
-        <AtomsButtonContact />
+        <AtomsButtonContact> Orçamento</AtomsButtonContact>
       </div>
-      <!-- <button
+      <button
         class="hidden sm:flex"
         text
         style="font-size: 35px"
         @click="social.redirect('instagram')"
       >
-        <Icon name="mdi:instagram" class="text-secondary transition-all" />
+        <Icon name="mdi:instagram" class="text-base-100 transition-all" />
       </button>
-      <button
+      <!-- <button
         class="hidden sm:flex"
         text
         style="font-size: 35px"

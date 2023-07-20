@@ -8,6 +8,6 @@ const social = useSocialRedirect();
     text-color="#fff"
     @click="() => social.redirect('whatsapp')"
   >
-    Falar com Advogado
+    <slot></slot>
   </n-button>
 </template>

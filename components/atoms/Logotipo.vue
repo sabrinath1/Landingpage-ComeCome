@@ -1,3 +1,7 @@
 <template>
-  <img class="mt-10" src="/img/logotipo.png" alt="Logotipo Sabrina Campos" />
+  <img
+    class="w-full h-20"
+    src="/img/logotipo.png"
+    alt="Logotipo Sabrina Campos"
+  />
 </template>

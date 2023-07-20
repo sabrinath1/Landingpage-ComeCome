@@ -16,20 +16,11 @@ const social = useSocialRedirect();
         <h1
           class="mb-5 text-6xl font-bold pt-24 lg:pt-20 text-star items-center text-white"
         >
-          Advocacia e
+          Solução Completa de Alimentação Industrial
         </h1>
-        <h3 class="mb-5 text-6xl font-bold text-star text-white">
+        <!-- <h3 class="mb-5 text-6xl font-bold text-star text-white">
           Assessoria Jurídica
-        </h3>
-      </div>
-
-      <div class="sm:py-10">
-        <button
-          class="btn bg-primary text-secondary border-primary"
-          @click="social.redirect('whatsapp')"
-        >
-          Agendar um horário
-        </button>
+        </h3> -->
       </div>
     </div>
   </div>
