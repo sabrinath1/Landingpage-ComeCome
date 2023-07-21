@@ -1,5 +1,12 @@
 <template>
   <div class="flex-col justify-center mb-10 xl:w-9/12">
+    <div class="justify-center items-center w-full px-10 self-center">
+      <h2
+        class="lg:mb-5 text-2xl xl:text-4xl font-bold lg:pt-0 text-center items-center text-white lg:ml-4 xl:ml-0 my-10"
+      >
+        Soluções Personalizadas para a sua Empresa
+      </h2>
+    </div>
     <div class="flex flex-wrap">
       <AtomsCardLeft
         img="/img/cafe.png"

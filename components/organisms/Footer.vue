@@ -8,8 +8,8 @@ const myList = ref([
         key: "#about",
       },
       {
-        label: "Áreas de Atuação",
-        key: "#areas",
+        label: "Serviços",
+        key: "#services",
       },
       {
         label: "Fale Conosco",
