@@ -2,45 +2,73 @@
 const social = useSocialRedirect();
 </script>
 <template>
-  <div
-    class="flex flex-col-reverse lg:flex-row lg:mb-10 justify-center w-auto xl:w-5/6"
-  >
+  <div class="flex-col -mt-10">
     <div
-      class="flex justify-center items-center xl:px-20 lg:py-10 lg:w-full justify-items-center lg:justify-end"
+      class="flex flex-col-reverse lg:flex-row w-11/12 xl:w-5/6 justify-center mx-auto"
     >
-      <img
-        src="/img/escritorio.jpg"
-        alt="Foto do Escritório"
-        class="w-64 h-auto sm:w-96 sm:h-auto rounded-lg shadow-2xl object-cover"
-      />
+      <div
+        class="py-5 justify-center lg:justify-end items-center lg:items-center w-full px-10 self-center"
+      >
+        <p
+          class="py-6 text-xl xl:text-2xl font-sans text-accent font-normal text-justify lg:ml-10 ml-0"
+        >
+          É com entusiasmo e dedicação que apresentamos a Come Come, uma empresa
+          especializada em fornecer soluções completas de alimentação
+          empresarial. Nossa missão é proporcionar refeições saborosas,
+          nutritivas e convenientes para empresas de todos os segmentos,
+          garantindo assim o bem-estar e a produtividade de seus colaboradores.
+        </p>
+      </div>
+      <div
+        class="flex justify-center items-center xl:px-20 lg:py-10 w-2/3 xl:w-2/5 justify-items-center xl:mr-0 mt-10"
+      >
+        <img
+          src="/img/cozinha1.png"
+          alt="Foto do Escritório"
+          class="w-96 h-72 xl:w-80 rounded-lg shadow-2xl object-cover hidden lg:block"
+        />
+      </div>
+      <div></div>
     </div>
     <div
-      class="py-5 sm:pr-16 justify-center items-center lg:w-full px-10 self-center"
+      class="flex flex-col-reverse lg:flex-row lg:mb-10 w-full xl:w-5/6 justify-center mx-auto -mt-10"
     >
-      <h1
-        class="lg:mb-5 text-5xl font-bold pt-10 lg:pt-0 text-center lg:text-start items-center text-secondary"
+      <div
+        class="justify-center lg:justify-end items-center lg:items-center w-full px-10 self-center"
       >
-        Bem-vindo ao escritório
-      </h1>
-      <p class="py-6 text-lg font-sans">
-        Somos um escritório de advocacia comprometido em fornecer serviços
-        jurídicos de excelência e soluções eficazes para nossos clientes.
-        Valorizamos o relacionamento com nossos clientes e buscamos compreender
-        suas necessidades específicas. Nosso objetivo é fornecer um atendimento
-        personalizado, dedicado e orientado para resultados, sempre visando os
-        melhores interesses de nossos clientes.Entre em contato conosco para
-        agendar uma consulta e descobrir como podemos ajudá-lo. Estamos prontos
-        para ouvir suas preocupações, avaliar suas necessidades jurídicas e
-        fornecer soluções jurídicas eficazes.
-      </p>
-      <div class="flex justify-center sm:justify-center items-center">
-        <button
-          class="bg-primary text-secondary hover:bg-secondary hover:text-primary w-32 h-10 rounded-lg mt-10"
-          @click="() => social.redirect('whatsapp')"
+        <h3
+          class="lg:mb-5 text-xl font-bold lg:pt-0 text-center lg:text-start items-center text-primary lg:ml-4 ml-0"
         >
-          SABER MAIS
-        </button>
+          Quem Somos?
+        </h3>
+        <p
+          class="text-xl xl:text-2xl font-sans text-accent font-normal text-justify lg:ml-4 ml-0"
+        >
+          É com entusiasmo e dedicação que apresentamos a Come Come, uma empresa
+          especializada em fornecer soluções completas de alimentação
+          empresarial. Nossa missão é proporcionar refeições saborosas,
+          nutritivas e convenientes para empresas de todos os segmentos,
+          garantindo assim o bem-estar e a produtividade de seus colaboradores.
+        </p>
+        <!-- <div class="flex justify-center sm:justify-end items-center">
+          <button
+            class="bg-primary text-white hover:bg-secondary w-32 h-10 rounded-lg mt-10"
+            @click="() => social.redirect('whatsapp')"
+          >
+            Entrar em Contato
+          </button>
+        </div> -->
       </div>
+      <div
+        class="flex justify-center -mt-32 items-center xl:px-20 lg:py-10 w-2/3 xl:w-2/5 justify-items-center xl:justify-center mr-24 xl:mr-0"
+      >
+        <img
+          src="/img/cozinha2.png"
+          alt="Foto do Escritório"
+          class="w-full h-72 xl:w-80 rounded-lg shadow-2xl object-cover hidden lg:block"
+        />
+      </div>
+      <div></div>
     </div>
   </div>
 </template>

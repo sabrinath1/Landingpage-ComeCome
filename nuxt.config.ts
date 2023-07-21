@@ -23,7 +23,7 @@ export default defineNuxtConfig({
 
       common: {
         primaryColor: "#ffffff",
-        primaryColorPressed: "#ffffff",
+        primaryColorPressed: "#A2D785",
         primaryColorHover: "#A2D785",
         textColor2: "#3F3955",
       },
