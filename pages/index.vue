@@ -5,9 +5,8 @@ definePageMeta({
 </script>
 <template>
   <OrganismsBannerMain id="home" />
-
   <MoleculesAboutOffice id="about" />
-  <OrganismsAbout id="areas" />
+  <OrganismsServices id="services" />
   <OrganismsContact id="contact" />
   <AtomsBackTop />
 </template>
