@@ -13,7 +13,9 @@ const props = defineProps<{
       <img :src="props.img" class="w-28 lg:w-24 lg:h-24 h-28 mx-auto" />
     </div>
     <div class="flex-col w-full my-auto">
-      <h3 class="flex px-4 text-secondary font-bold text-xl xl:text-2xl py-2">
+      <h3
+        class="flex px-4 text-secondary font-bold text-xl xl:text-2xl py-2 justify-center lg:justify-start"
+      >
         {{ props.title }}
       </h3>
       <p

@@ -14,8 +14,10 @@ const props = defineProps<{
     >
       <img :src="props.img" class="w-28 lg:w-24 lg:h-24 h-28 mx-auto" />
     </div>
-    <div class="flex-col-reverse lg:flex-col w-full my-auto">
-      <h3 class="flex px-4 text-secondary font-bold text-xl xl:text-2xl py-2">
+    <div class="flex-col w-full my-auto">
+      <h3
+        class="flex px-4 text-secondary font-bold text-xl xl:text-2xl py-2 justify-center"
+      >
         {{ props.title }}
       </h3>
       <p
@@ -28,8 +30,10 @@ const props = defineProps<{
   <div
     class="w-10/12 mx-auto lg:flex flex-col lg:flex-row justify-center my-4 hidden"
   >
-    <div class="flex-col-reverse lg:flex-col w-full my-auto">
-      <h3 class="flex px-4 text-secondary font-bold text-xl xl:text-2xl py-2">
+    <div class="lg:flex-col w-full my-auto">
+      <h3
+        class="flex px-4 text-secondary font-bold text-xl xl:text-2xl py-2 justify-end"
+      >
         {{ props.title }}
       </h3>
       <p
