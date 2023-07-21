@@ -4,13 +4,13 @@ const social = useSocialRedirect();
 <template>
   <div class="flex-col -mt-10">
     <div
-      class="flex flex-col-reverse lg:flex-row w-11/12 xl:w-5/6 justify-center mx-auto"
+      class="flex flex-col-reverse lg:flex-row w-full lg:w-11/12 xl:w-5/6 justify-center mx-auto"
     >
       <div
         class="py-5 justify-center lg:justify-end items-center lg:items-center w-full px-10 self-center"
       >
         <p
-          class="py-6 text-xl xl:text-2xl font-sans text-accent font-normal text-justify lg:ml-10 ml-0"
+          class="py-6 text-xl xl:text-2xl font-sans text-accent font-normal text-justify lg:ml-10 mb-28 lg:mb-0"
         >
           É com entusiasmo e dedicação que apresentamos a Come Come, uma empresa
           especializada em fornecer soluções completas de alimentação
@@ -31,7 +31,7 @@ const social = useSocialRedirect();
       <div></div>
     </div>
     <div
-      class="flex flex-col-reverse lg:flex-row lg:mb-10 w-full xl:w-5/6 justify-center mx-auto -mt-10"
+      class="flex flex-col-reverse lg:flex-row lg:mb-10 w-full xl:w-5/6 justify-center mx-auto lg:-mt-10"
     >
       <div
         class="justify-center lg:justify-end items-center lg:items-center w-full px-10 self-center"
@@ -42,7 +42,7 @@ const social = useSocialRedirect();
           Quem Somos?
         </h3>
         <p
-          class="text-xl xl:text-2xl font-sans text-accent font-normal text-justify lg:ml-4 ml-0"
+          class="text-xl xl:text-2xl font-sans text-accent font-normal text-justify lg:ml-4"
         >
           É com entusiasmo e dedicação que apresentamos a Come Come, uma empresa
           especializada em fornecer soluções completas de alimentação
@@ -68,7 +68,13 @@ const social = useSocialRedirect();
           class="w-full h-72 xl:w-80 rounded-lg shadow-2xl object-cover hidden lg:block"
         />
       </div>
-      <div></div>
     </div>
+    <!-- <div class="flex justify-center w-1/2 mx-auto">
+      <img
+        src="/img/sobre.png"
+        alt="Foto do Escritório"
+        class="w-full h-72 xl:w-80"
+      />
+    </div> -->
   </div>
 </template>
