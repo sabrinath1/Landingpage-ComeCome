@@ -19,7 +19,7 @@ const social = useSocialRedirect();
             class="btn bg-secondary text-white border-secondary hover:bg-secondary"
             @click="social.redirect('whatsapp')"
           >
-            Solicitar um Orçamento
+            Solicitar Orçamento
           </button>
         </div>
       </div>

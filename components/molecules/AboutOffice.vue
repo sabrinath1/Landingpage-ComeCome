@@ -2,9 +2,9 @@
 const social = useSocialRedirect();
 </script>
 <template>
-  <div class="flex-col -mt-10">
+  <div class="flex-col -mt-10 justify-center">
     <div
-      class="flex flex-col-reverse lg:flex-row w-full lg:w-11/12 xl:w-5/6 justify-center mx-auto"
+      class="flex flex-col-reverse lg:flex-row w-full lg:w-11/12 xl:w-8/12 justify-center mx-auto"
     >
       <div
         class="py-5 justify-center lg:justify-end items-center lg:items-center w-full px-10 self-center"
@@ -20,7 +20,7 @@ const social = useSocialRedirect();
         </p>
       </div>
       <div
-        class="flex justify-center items-center xl:px-20 lg:py-10 w-2/3 xl:w-2/5 justify-items-center xl:mr-0 mt-10"
+        class="flex justify-center items-center xl:px-20 lg:py-10 w-2/3 justify-items-center xl:mr-0 mt-10"
       >
         <img
           src="/img/cozinha1.png"
@@ -31,18 +31,18 @@ const social = useSocialRedirect();
       <div></div>
     </div>
     <div
-      class="flex flex-col-reverse lg:flex-row lg:mb-10 w-full xl:w-5/6 justify-center mx-auto lg:-mt-10"
+      class="flex flex-col-reverse lg:flex-row lg:mb-10 w-full xl:w-8/12 justify-center mx-auto lg:-mt-10"
     >
       <div
         class="justify-center lg:justify-end items-center lg:items-center w-full px-10 self-center"
       >
         <h3
-          class="lg:mb-5 text-xl font-bold lg:pt-0 text-center lg:text-start items-center text-primary lg:ml-4 ml-0"
+          class="lg:mb-5 text-xl lg:text-2xl xl:text-4xl font-bold lg:pt-0 text-center lg:text-start items-center text-primary lg:ml-4 xl:ml-0"
         >
           Quem Somos?
         </h3>
         <p
-          class="text-xl xl:text-2xl font-sans text-accent font-normal text-justify lg:ml-4"
+          class="text-xl xl:text-2xl font-sans text-accent font-normal text-justify lg:ml-4 xl:ml-0"
         >
           É com entusiasmo e dedicação que apresentamos a Come Come, uma empresa
           especializada em fornecer soluções completas de alimentação
@@ -60,7 +60,7 @@ const social = useSocialRedirect();
         </div> -->
       </div>
       <div
-        class="flex justify-center -mt-32 items-center xl:px-20 lg:py-10 w-2/3 xl:w-2/5 justify-items-center xl:justify-center mr-24 xl:mr-0"
+        class="flex justify-center -mt-32 items-center xl:px-20 lg:py-10 w-2/3 justify-items-center xl:justify-center mr-24"
       >
         <img
           src="/img/cozinha2.png"
@@ -69,12 +69,14 @@ const social = useSocialRedirect();
         />
       </div>
     </div>
-    <!-- <div class="flex justify-center w-1/2 mx-auto">
+    <div
+      class="justify-center w-auto md:w-1/2 h-auto mt-6 block lg:hidden mx-10 md:mx-auto"
+    >
       <img
         src="/img/sobre.png"
         alt="Foto do Escritório"
         class="w-full h-72 xl:w-80"
       />
-    </div> -->
+    </div>
   </div>
 </template>
