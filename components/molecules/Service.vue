@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center mb-10">
+  <div class="flex-col justify-center mb-10 xl:w-9/12">
     <div class="flex flex-wrap">
       <AtomsCardLeft
         img="/img/cafe.png"
@@ -7,6 +7,16 @@
         content="Proporcionamos coffee breaks e serviços de alimentação para eventos corporativos, sejam eles pequenos encontros ou grandes conferências. Nossa equipe estará presente para garantir que todos desfrutem de uma experiência gastronômica memorável."
       >
       </AtomsCardLeft>
+      <AtomsCardRigth
+        img="/img/marmitex.png"
+        title=" Refeições Coletivas"
+        content="Fornecemos marmitas e refeições coletivas para empresas de todos os tamanhos. Nossos cardápios são elaborados cuidadosamente, oferecendo uma variedade de opções saudáveis e saborosas para atender aos diferentes paladares e necessidades alimentares. Trabalhamos com almoço, ceia e marmitex."
+      />
     </div>
+    <AtomsCardLeft
+      img="/img/especial.png"
+      title="Opções Especiais"
+      content="Temos opções especiais para atender às necessidades alimentares específicas, como vegetarianos, veganos e intolerantes a glúten. Acreditamos na importância de uma alimentação inclusiva e saudável."
+    />
   </div>
 </template>
