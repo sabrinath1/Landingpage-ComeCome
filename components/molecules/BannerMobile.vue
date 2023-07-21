@@ -6,7 +6,7 @@ const props = defineProps<{
 <template>
   <div
     :style="{ backgroundImage: `url(${props.imgMobile})` }"
-    class="hero mb-20 block md:hidden"
+    class="hero mb-20 block lg:hidden"
   >
     <div class="text-center text-neutral-content h-[20rem] w-full px-5">
       <div class="flex-col text-center ml-32">
