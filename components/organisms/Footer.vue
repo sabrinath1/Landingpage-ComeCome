@@ -7,6 +7,11 @@ const myList = ref([
         label: "Quem Somos",
         key: "#about",
       },
+
+      {
+        label: "Nossos Diferenciais",
+        key: "#differential",
+      },
       {
         label: "Serviços",
         key: "#services",
@@ -25,7 +30,7 @@ const myList = ref([
         label: "(15)99999-9999",
       },
       {
-        label: "sabrina@advocacia.com.br",
+        label: "comecome@gmail.com",
       },
       {
         label: "Av. Campolim, 1749 - Campolim, Sorocaba - SP",
@@ -39,7 +44,10 @@ const myList = ref([
         label: "Segunda á Sexta: ",
       },
       {
-        label: "09:00 ás 18:00 horas",
+        label: "09:00 - 18:00 horas",
+      },
+      {
+        label: "Sábado: 09:00 - 14:00 horas",
       },
     ],
   },

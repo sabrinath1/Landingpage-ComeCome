@@ -12,8 +12,8 @@ const menuOptions = ref<MenuOption[]>([
     key: "about",
   },
   {
-    label: "Áreas",
-    key: "areas",
+    label: "Serviços",
+    key: "services",
   },
   {
     label: "Contato",

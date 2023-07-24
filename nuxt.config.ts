@@ -12,12 +12,12 @@ export default defineNuxtConfig({
     themeOverrides: {
       Menu: {
         itemTextColorInverted: "#FFFFFFFF",
-        itemTextColorHoverInverted: "#D8394B",
+        itemTextColorHoverInverted: "#a2d785",
         itemTextColorActiveInverted: "#FFFFFFFF",
         itemColorActiveInverted: "#D8394B",
         itemColorActiveHoverInverted: "#D8394B",
         itemTextColorHorizontalInverted: "#FFFFFFFF",
-        itemTextColorHoverHorizontalInverted: "#D8394B",
+        itemTextColorHoverHorizontalInverted: "#a2d785",
         itemTextColorActiveHorizontalInverted: "#D8394B",
       },
 
