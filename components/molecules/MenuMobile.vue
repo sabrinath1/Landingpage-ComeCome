@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const social = useSocialRedirect();
+</script>
 
 <template>
   <div
@@ -26,7 +28,12 @@
       <MoleculesMenu />
     </div>
     <div class="flex my-10 justify-center">
-      <AtomsButtonContact></AtomsButtonContact>
+      <button
+        class="btn bg-primary text-white hover:bg-secondary"
+        @click="social.redirect('whatsapp')"
+      >
+        Solicitar Orçamento
+      </button>
     </div>
     <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
       <AtomsButtonInstagram />

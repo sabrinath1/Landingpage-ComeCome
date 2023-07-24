@@ -17,7 +17,7 @@ const social = useSocialRedirect();
       às suas necessidades de alimentação. Entre em contato conosco hoje mesmo e
       descubra como a Come Come pode levar a melhor comida até a sua empresa!
     </p>
-    <div class="sm:py-10 flex justify-center mt-10 md:mt-0">
+    <div class="flex justify-center mt-10 md:mt-0">
       <button
         class="btn bg-primary text-white hover:bg-secondary"
         @click="social.redirect('whatsapp')"
