@@ -12,7 +12,7 @@
     <div class="flex-col mx-10 mr-10">
       <div class="justify-center items-center w-full px-10 self-center">
         <h3
-          class="lg:mb-5 text-2xl xl:text-4xl font-bold lg:pt-0 text-center items-center text-primary lg:ml-4 xl:ml-0 mb-6"
+          class="lg:mb-5 text-2xl lg:text-3xl xl:text-4xl font-bold lg:pt-0 text-center items-center text-primary lg:ml-4 xl:ml-0 mb-6"
         >
           Nossos Diferenciais
         </h3>

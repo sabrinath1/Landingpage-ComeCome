@@ -37,7 +37,7 @@ const social = useSocialRedirect();
         class="justify-center lg:justify-end items-center lg:items-center w-full px-10 self-center"
       >
         <h3
-          class="lg:mb-5 text-xl lg:text-2xl xl:text-4xl font-bold lg:pt-0 text-center lg:text-start items-center text-primary lg:ml-4 xl:ml-0"
+          class="lg:mb-5 text-2xl lg:text-3xl xl:text-4xl font-bold lg:pt-0 text-center lg:text-start items-center text-primary lg:ml-4 xl:ml-0"
         >
           Quem Somos?
         </h3>

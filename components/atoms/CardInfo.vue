@@ -6,7 +6,7 @@ const props = defineProps<{
 </script>
 <template>
   <div class="flex justify-end w-full">
-    <div class="flex justify-center w-full h-auto items-center">
+    <div class="flex justify-start w-full h-auto items-center">
       <img :src="props.img" class="w-12 h-12" />
 
       <p

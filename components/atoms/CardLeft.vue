@@ -19,7 +19,7 @@ const props = defineProps<{
         {{ props.title }}
       </h3>
       <p
-        class="w-full px-4 justify-end font-sans text-xl xl:text-2xl text-white"
+        class="w-full px-4 justify-end text-xl xl:text-2xl text-white font-san font-normal text-justify"
       >
         {{ props.content }}
       </p>

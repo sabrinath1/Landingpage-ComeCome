@@ -4,7 +4,7 @@
     class="justify-center lg:justify-end items-center w-full px-10 self-center"
   >
     <h3
-      class="mb-6 lg:mb-5 text-2xl lg:text-3xl xl:text-4xl font-bold pt-0 text-primary lg:ml-4 xl:ml-0 text-center md:mt-4 lg:mt-0"
+      class="mb-6 lg:mb-5 text-2xl lg:text-3xl xl:text-4xl font-bold pt-0 text-primary lg:ml-4 xl:ml-0 text-center mt-10 md:mt-4 lg:mt-0"
     >
       Fale Conosco
     </h3>
