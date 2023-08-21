@@ -8,7 +8,8 @@ definePageMeta({
   <MoleculesAboutOffice id="about" />
   <OrganismsServices id="services" />
   <OrganismsDifferential id="differential" />
-  <MoleculesCall />
+  <MoleculesCall imgCall="/img/mod1.png" />
   <OrganismsContact id="contact" />
+
   <AtomsBackTop />
 </template>

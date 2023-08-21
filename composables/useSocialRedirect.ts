@@ -11,10 +11,12 @@ function redirect(
 
   switch (social) {
     case "instagram":
-      link = "https://www.instagram.com/";
+      link =
+        "https://www.instagram.com/comecomecozinhaindustrial/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D";
       break;
     case "whatsapp":
-      link = "https://www.whatsapp.com/";
+      link =
+        "https://wa.me/5515996514338?text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+servi%C3%A7os+fornecidos+pela+Come+Come";
       break;
     case "facebook":
       link = "https://www.facebook.com/";

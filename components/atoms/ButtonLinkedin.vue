@@ -10,7 +10,7 @@ const social = useSocialRedirect();
   >
     <Icon
       name="mdi:linkedin"
-      class="text-secondary hover:text-primary transition-all"
+      class="text-primary hover:text-secondary transition-all"
     />
   </n-button>
 </template>

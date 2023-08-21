@@ -27,7 +27,7 @@
       />
       <AtomsCardDifferential
         title="Compromisso com a Saúde"
-        content=" Nossa equipe de chefs e nutricionistas prioriza a saúde e o bem-estar em todas as nossas receitas."
+        content=" Nossa equipe de cozinheiros e nutricionistas prioriza a saúde e o bem-estar em todas as nossas receitas."
       />
       <AtomsCardDifferential
         title="Atendimento Excepcional"

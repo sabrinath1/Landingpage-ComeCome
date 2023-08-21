@@ -27,13 +27,13 @@ const myList = ref([
     title: "Contatos",
     items: [
       {
-        label: "(15)99999-9999",
+        label: "(15)99651-4338",
       },
       {
-        label: "comecome@gmail.com",
+        label: "contato@comecomecozinhaindustrial.com.br",
       },
       {
-        label: "Av. Campolim, 1749 - Campolim, Sorocaba - SP",
+        label: "R. Tiburcio Ribeiro Filho, 303 - Jd. Eucaliptos, Sorocaba - SP",
       },
     ],
   },
@@ -46,9 +46,6 @@ const myList = ref([
       {
         label: "09:00 - 18:00 horas",
       },
-      {
-        label: "Sábado: 09:00 - 14:00 horas",
-      },
     ],
   },
 ]);
@@ -60,8 +57,9 @@ const myList = ref([
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="flex flex-col justify-center items-center my-3">
           <img
-            src="/img/logotipo-vertical.png"
-            alt="Logotipo VerticaL Sabrina Campos"
+            c
+            src="/img/logotipo-completo.png"
+            alt="Logotipo Come Come Cozinha Industrial"
           />
         </div>
         <div
@@ -85,7 +83,7 @@ const myList = ref([
                   <div class="flex">
                     <NuxtLink
                       :to="subItem.key"
-                      class="text-sm font-normal text-white hover:text-secondary flex-row"
+                      class="text-base font-normal text-white hover:text-secondary flex-row"
                     >
                       {{ subItem.label }}
                     </NuxtLink>
@@ -103,12 +101,10 @@ const myList = ref([
       <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
         <AtomsButtonWhatsapp />
         <AtomsButtonInstagram />
-        <AtomsButtonFacebook />
-        <AtomsButtonLinkedin />
       </div>
 
       <div class="flex justify-center space-x-6 md:order-first md:mb-0">
-        Todos os direitos reservados a Sabrina Campos
+        Todos os direitos reservados a Come Come - Cozinha Industrial
       </div>
     </div>
   </footer>

@@ -9,7 +9,7 @@ const social = useSocialRedirect();
     <div class="flex-none lg:hidden">
       <label
         for="my-drawer-3"
-        class="btn btn-circle swap swap-rotate bg-primary text-white border-white hover:bg-primary"
+        class="btn swap swap-rotate bg-primary text-white border-white hover:bg-primary border-none"
       >
         <!-- hamburger icon -->
         <svg
@@ -35,17 +35,23 @@ const social = useSocialRedirect();
     </div>
 
     <div class="flex items-end space-x-4">
-      <div class="hidden sm:flex">
-        <AtomsButtonContact> Orçamento</AtomsButtonContact>
-      </div>
       <button
-        class="hidden sm:flex"
+        class=""
+        text
+        style="font-size: 35px"
+        @click="social.redirect('whatsapp')"
+      >
+        <Icon name="mdi:whatsapp" class="text-base-100 transition-all" />
+      </button>
+      <button
+        class=""
         text
         style="font-size: 35px"
         @click="social.redirect('instagram')"
       >
         <Icon name="mdi:instagram" class="text-base-100 transition-all" />
       </button>
+
       <!-- <button
         class="hidden sm:flex"
         text

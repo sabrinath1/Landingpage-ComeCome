@@ -4,7 +4,7 @@ const social = useSocialRedirect();
 
 <template>
   <div
-    class="menu p-4 w-80 bg-primary/60 backdrop-blur-sm text-base-content z-50"
+    class="menu p-4 w-80 h-full bg-primary/30 backdrop-blur-sm text-base-content z-50"
   >
     <div class="flex justify-end">
       <label
@@ -29,7 +29,7 @@ const social = useSocialRedirect();
     </div>
     <div class="flex my-10 justify-center">
       <button
-        class="btn bg-primary text-white hover:bg-secondary"
+        class="btn bg-secondary text-base hover:bg-primary"
         @click="social.redirect('whatsapp')"
       >
         Solicitar Orçamento
@@ -37,8 +37,7 @@ const social = useSocialRedirect();
     </div>
     <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
       <AtomsButtonInstagram />
-      <AtomsButtonFacebook />
-      <AtomsButtonLinkedin />
+
       <AtomsButtonWhatsapp />
     </div>
   </div>

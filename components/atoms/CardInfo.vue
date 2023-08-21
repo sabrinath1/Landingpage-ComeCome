@@ -7,10 +7,10 @@ const props = defineProps<{
 <template>
   <div class="flex justify-end w-full">
     <div class="flex justify-start w-full h-auto items-center">
-      <img :src="props.img" class="w-12 h-12" />
+      <img :src="props.img" class="w-14 h-12" />
 
       <p
-        class="w-full font-sans text-accent mx-2 my-6 text-xl xl:text-2xl font-normal"
+        class="w-full font-sans text-accent mx-2 my-6 text-base md:text-xl xl:text-2xl font-normal"
       >
         {{ props.content }}
       </p>

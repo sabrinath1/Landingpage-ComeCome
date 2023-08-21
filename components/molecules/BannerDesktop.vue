@@ -25,10 +25,10 @@ const social = useSocialRedirect();
 
       <div class="sm:py-10">
         <button
-          class="btn bg-secondary text-white border-secondary hover:bg-secondary"
+          class="btn bg-secondary text-accent border-secondary hover:bg-secondary"
           @click="social.redirect('whatsapp')"
         >
-          Solicitar um Orçamento
+          Solicitar Orçamento
         </button>
       </div>
     </div>

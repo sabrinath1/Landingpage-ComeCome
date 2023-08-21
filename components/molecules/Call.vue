@@ -1,6 +1,14 @@
+<script setup lang="ts">
+const props = defineProps<{
+  imgCall: string;
+}>();
+</script>
 <template>
-  <div class="flex justify-center w-full h-auto bg-secondary py-10">
-    <div class="justify-center items-center w-full xl:w-full px-14 self-center">
+  <div
+    class="flex justify-center w-full h-auto bg-secondary/40 py-10 bg-center bg-no-repeat"
+    :style="{ backgroundImage: `url(${props.imgCall})` }"
+  >
+    <div class="justify-center items-center w-full xl:w-9/12 px-14 self-center">
       <h3
         class="lg:mb-5 text-2xl lg:text-3xl xl:text-4xl font-bold lg:pt-0 text-center items-center text-primary lg:ml-4 xl:ml-0 mb-10"
       >

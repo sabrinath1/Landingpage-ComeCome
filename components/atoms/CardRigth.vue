@@ -43,9 +43,9 @@ const props = defineProps<{
       </p>
     </div>
     <div
-      class="flex justify-center lg:justify-start items-center bg-secondary rounded-full w-32 lg:w-32 lg:h-28 h-32 my-auto mx-auto"
+      class="flex justify-center lg:justify-start items-center bg-secondary rounded-full w-32 lg:w-40 lg:h-36 h-32 my-auto mx-auto"
     >
-      <img :src="props.img" class="w-28 lg:w-24 lg:h-24 h-28 mx-auto" />
+      <img :src="props.img" class="w-28 lg:w-32 lg:h-32 h-28 mx-auto" />
     </div>
   </div>
 </template>
